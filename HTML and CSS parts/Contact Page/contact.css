@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: xx-large;
+    text-decoration: underline double;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    border: 3px solid #5A7D7C;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+
+    .userInput {
+        margin: 2rem;
+        background-color: #5A7D7C;
+    }
+
+    legend {
+        padding: rem;
+
+    }
+
+    fieldset input {
+        margin: 1rem 0 0.2rem 1rem;
+
+        color: chartreuse;
+    }
+
+    textarea {
+        margin: 2rem 2rem 2rem 1rem;
+    }
+
+    li:nth-child(1) {
+        list-style-image: url(phone1\ copy.png);
+    }
+
+    li:nth-child(2) {
+        list-style-image: url(Email.png);
+    }
+
+    li:nth-child(3) {
+        list-style-image: url(location.png);
+    }
+
+    li {
+        margin: 2rem;
+    }
+
+    .contactInfo {
+        margin: 0 0 6rem 6rem;
+    }
+
+    button {
+        position: relative;
+        right: 17rem;
+        bottom: 5px;
+    }
+}

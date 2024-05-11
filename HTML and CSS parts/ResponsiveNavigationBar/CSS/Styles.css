@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+.root {
+    --header-color: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Cabin", sans-serif;
+}
+
+nav {
+    background-color: #D9D9D9;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+nav ul {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 80px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+nav li:first-child {
+    font-size: 50px;
+    margin-right: 100px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.104);
+    backdrop-filter: blur(40px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+
+.Search {
+    margin-top: 20px;
+}
+
+.Search .searchingbutton {
+    position: absolute;
+}
+
+.Search .searchingbar {
+    margin-left: 50px;
+}
+
+.recent {
+    margin: 10px;
+}
+
+.main-comp {
+    
+}
+
+.main-comp .images-  {
+    position: absolute;
+    margin: 20px;
+}
+
+.main-comp .description {
+    position: absolute;
+    width: 20%;
+    margin-left: 20rem;
+    margin-top: 20px;
+}
+
+.main-comp .brand-and-Price {
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.main-comp .description p {
+    margin-top: 5px;
+}
+
+.main-comp_second {
+    margin-left: 45rem;
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .sidebar {
+        width: 100%;
+    }
+}
+

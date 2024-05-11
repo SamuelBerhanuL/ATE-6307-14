@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main {
+    border: outset 5px #eee;
+    display: flex;
+    /* width: fit-content; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+a img {
+    width: 1rem;
+    float: left;
+}
+
+.left {
+    float: left;
+    display: flow-root;
+
+}
+
+
+hr {
+    width: 35%;
+    margin-left: 10px;
+}
+
+
+.line {
+    margin-left: 17ch;
+}
